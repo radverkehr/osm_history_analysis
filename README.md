@@ -15,42 +15,45 @@ Eine mögliche Lösung wäre die Entwicklung eines Prozesses, der mithilfe der O
      * https://radverkehr.github.io/digitalisierungsmodul/SoSe2024/viz/historic_osm-maxspeed_hermannstr.html
 
 
-       ```mermaid
-     ---
-     title: Prototype1 (as mermaid flowchart)
-     ---
-     flowchart  TD
-         subgraph SG1["choose area of interest"]
-     		direction RL
-        		A2@{ shape: cyl, label: "custom shape"}--> A1("get geometry")
-     	end
+```mermaid
+---
+title: Prototype1 (as mermaid flowchart)
+---
+ flowchart  TD
+     subgraph SG1["choose area of interest"]
+ 		direction RL
+    		A2@{ shape: cyl, label: "custom shape"}--> A1("get geometry")
+ 	end
+     
+     subgraph SG2["processing historic osm-data"]
+     	direction TB
+ 		subgraph SG2-1["get data"]
+ 			direction RL
+    			B2@{ shape: cyl, label: "OpenStreetMap"}--> |ohsome API| B1("get highways with _maxspeed_")
+         end   
          
-         subgraph SG2["processing historic osm-data"]
+         subgraph SG2-2["clean up/process data"]
          	direction TB
-     		subgraph SG2-1["get data"]
-     			direction RL
-        			B2@{ shape: cyl, label: "OpenStreetMap"}--> |ohsome API| B1("get highways with _maxspeed_")
-             end   
-             
-             subgraph SG2-2["clean up/process data"]
-             	direction TB
-             	C(retrieve tags to dataframe columns) --> D(get state of each 1st january)
-             end 
-             SG2-1 --> SG2-2
-         end
-         
+         	C(retrieve tags to dataframe columns) --> D(get state of each 1st january)
+         end 
+         SG2-1 --> SG2-2
+     end
      
-         subgraph SG3["vizualize"]
-         	direction BT
-     		G(select year) --> E(vizualize as interactive map via altair) 
-         end
-         
-         
-     
-     SG1 --> SG2 --> SG3
-     
-     %% Comments after double percent signs
-     
+subgraph SG3["vizualize"]
+     direction BT
+ 	G(select year) --> E(vizualize as interactive map via altair) 
+end
+
+SG1 --> SG2 --> SG3
+ 
+%% Comments after double percent signs
+```
+
+
+​     
+
+
+
 
    * Prototyp 2: Ein weiterer Prototyp stellt Geschwindigkeitsänderungen (`maxspeed`) auf Hauptverkehrsstraßen im Berliner Bezirk Neukölln dar. Die  Visualisierung enthält einen Zeitstrahl zur Darstellung der Änderungen  über einen längeren Zeitraum sowie eine Verlinkung der Way-Historie. 
 
