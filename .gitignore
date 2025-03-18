@@ -1,0 +1,14 @@
+*.csv
+*.txt
+*.gpkg
+*.parquet
+*.pbf
+*.ini
+*.json
+*.geojson
+
+
+__pycache__/
+*.pyc
+*.log  
+*.ipynb_checkpoints
