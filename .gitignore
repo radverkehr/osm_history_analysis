@@ -1,5 +1,6 @@
 *.csv
 *.txt
+!requirements.txt  # Exception to track requirements.txt
 *.gpkg
 *.parquet
 *.pbf
