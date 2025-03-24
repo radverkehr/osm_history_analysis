@@ -106,15 +106,24 @@ Eine mögliche Lösung wäre die Entwicklung eines Prozesses, der mithilfe der O
      * [Visualisierung 2: Kartendarstellung der Fahrradstraßen in Berlin](https://radverkehr.github.io/osm_history_analysis/viz/fahrradstrassen/maps_fahrradstr_berlin.html)
 
    * Zusätzlich soll untersucht werden, ob eine Reduktion der **zulässigen Geschwindigkeit** oder die Einrichtung separater Radinfrastrukturen zu  einem Rückgang der Fahrradunfälle in den jeweiligen Straßenabschnitten führt. Grundlage hierfür sind Daten aus dem **Unfallatlas** [3].
+        * [Visualisierung 1: Zusammenhang zwischen Unfallentwicklung und Veränderung zul. Geschwindigkeit](https://radverkehr.github.io/osm_history_analysis/viz/germany_raster2022_net_acc.html) 
+
+
 
 **Herausforderungen bei der Umsetzung:**
 
-* Unterscheidung von Änderungen und Maßnahmen: Wann handelt es sich  bei einer Änderung in OSM um eine tatsächliche verkehrliche Maßnahme,  und wann nur um eine Korrektur, Verfeinerung oder ein Missverständnis?
-* Umgang mit Geometrieänderungen: Änderungen können zu veränderten Geometrien führen (z.B. durch Aufteilung oder Ergänzung von  Straßenabschnitten), was Auswirkungen auf die entsprechenden Way-IDs haben kann und die eindeutige Nachverfolgbarkeit erschwert.
+* Unterscheidung zwischen tatsächlichen Maßnahmen und reinen Tagging-Anpassungen:
+  * Nicht jede Änderung in OSM spiegelt eine reale verkehrliche Maßnahme wider. Manche Anpassungen resultieren aus Korrekturen, Verfeinerungen bestehender Daten oder Missverständnissen. Eine zentrale Herausforderung besteht darin, echte infrastrukturelle Veränderungen von bloßen redaktionellen Änderungen zu unterscheiden.
+
+* Umgang mit Geometrieänderungen und deren Auswirkungen:
+  * Geometrische Änderungen – etwa durch das Aufteilen, Zusammenführen oder Ergänzen von Straßenabschnitten – können zu neuen oder veränderten Way-IDs führen. Das erschwert die eindeutige Rückverfolgung historischer Entwicklungen und macht eine sorgfältige Datenverknüpfung erforderlich.
+
+* Verzögerung (Time Lag) zwischen Maßnahme und OSM-Tagging:
+  * Die zeitliche Verzögerung zwischen einer tatsächlichen Maßnahme vor Ort und ihrer Erfassung in OSM variiert stark. Sie hängt unter anderem vom spezifischen Tagging ab sowie davon, wie aktiv und aufmerksam die lokale OSM-Community ist.
 
 
-[1] https://docs.ohsome.org/ohsome-api/v1/ 
+Quellen:
 
-[2] https://gdi.berlin.de/services/wfs/fahrradstrassen 
-
-[3] https://unfallatlas.statistikportal.de/
+* [1] https://docs.ohsome.org/ohsome-api/v1/ 
+* [2] https://gdi.berlin.de/services/wfs/fahrradstrassen 
+* [3] https://unfallatlas.statistikportal.de/
