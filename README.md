@@ -14,6 +14,8 @@ Eine mögliche Lösung wäre die Entwicklung eines Prozesses, der mithilfe der O
 
      * https://radverkehr.github.io/digitalisierungsmodul/SoSe2024/viz/historic_osm-maxspeed_hermannstr.html
 
+<details>
+<summary>Click to expand mermaid diagram</summary>
 
 ```mermaid
 ---
@@ -48,7 +50,7 @@ SG1 --> SG2 --> SG3
  
 %% Comments after double percent signs
 ```
-
+</details> 
 
 ​     
 
