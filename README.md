@@ -114,6 +114,8 @@ Eine mögliche Lösung wäre die Entwicklung eines Prozesses, der mithilfe der O
 
 * Unterscheidung zwischen tatsächlichen Maßnahmen und reinen Tagging-Anpassungen:
   * Nicht jede Änderung in OSM spiegelt eine reale verkehrliche Maßnahme wider. Manche Anpassungen resultieren aus Korrekturen, Verfeinerungen bestehender Daten oder Missverständnissen. Eine zentrale Herausforderung besteht darin, echte infrastrukturelle Veränderungen von bloßen redaktionellen Änderungen zu unterscheiden.
+  * Erst wenn eine gewisse Vollständigkeit der Information vorliegt, kann eine Änderung als Hinweis auf eine tatsächliche Maßnahme gewertet werden.
+  Handelt es sich lediglich um das Ergänzen bisher fehlender Informationen, lässt sich höchstens spekulieren, ob dies mit einer Maßnahme im realen Raum zusammenhängt oder nur eine verspätete Erfassung darstellt.
 
 * Umgang mit Geometrieänderungen und deren Auswirkungen:
   * Geometrische Änderungen – etwa durch das Aufteilen, Zusammenführen oder Ergänzen von Straßenabschnitten – können zu neuen oder veränderten Way-IDs führen. Das erschwert die eindeutige Rückverfolgung historischer Entwicklungen und macht eine sorgfältige Datenverknüpfung erforderlich.
