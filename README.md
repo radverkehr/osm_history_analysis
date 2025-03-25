@@ -105,7 +105,7 @@ Eine mögliche Lösung wäre die Entwicklung eines Prozesses, der mithilfe der O
      * [Visualisierung 1: Zeitlicher Vergleich OSM vs. Senat (Line Chart)](https://radverkehr.github.io/osm_history_analysis/viz/fahrradstrassen/lineplot_fahrradstr_berlin_osm2senat.html)  
      * [Visualisierung 2: Kartendarstellung der Fahrradstraßen in Berlin](https://radverkehr.github.io/osm_history_analysis/viz/fahrradstrassen/maps_fahrradstr_berlin.html)
 
-   * Zusätzlich soll untersucht werden, ob eine Reduktion der **zulässigen Geschwindigkeit** oder die Einrichtung separater Radinfrastrukturen zu  einem Rückgang der Fahrradunfälle in den jeweiligen Straßenabschnitten führt. Grundlage hierfür sind Daten aus dem **Unfallatlas** [3].
+   * Zusätzlich soll untersucht werden, ob eine Reduktion der **zulässigen Geschwindigkeit** oder die Einrichtung separater Radinfrastrukturen zu  einem Rückgang der Fahrradunfälle in den jeweiligen Straßenabschnitten führt. Grundlage hierfür sind Daten aus dem **Unfallatlas** [3].  
         * [Visualisierung 1: Kartendarstellung: Unfallentwicklung und Veränderung zul. Geschwindigkeit](https://radverkehr.github.io/osm_history_analysis/viz/germany_raster2022_net_acc.html) 
         
         * Visualisierung 2: Scatterplot zur Unfallveränderung nach Tempo-30-Anteil
