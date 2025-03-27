@@ -116,6 +116,8 @@ Es wird analysiert, wie schnell bzw. ob neue **Fahrradstraßen** in OSM getaggt 
 
 Ein weiterer Untersuchungsaspekt ist, ob nachgewiesen werden kann, dass eine Reduzierung der **zulässigen Geschwindigkeit** zu einem Rückgang der Unfallzahlen in den betroffenen Bereichen führt. Hierfür wurden Daten aus dem **Unfallatlas** [3] herangezogen. Aufgrund der umfangreichen Datenmengen kam anstelle des ohsome-Frameworks eine alternative Datenverarbeitung zum Einsatz, bei der pbf-Dateien [4] mit Osmium [5] verarbeitet wurden. Als Grundlage der Analyse dienen die OSM-Netze vom 1. Januar 2018 und 1. Januar 2024.
 
+<img src="https://raw.githubusercontent.com/radverkehr/osm_history_analysis/main/img/timeline.png" alt="timeline" width="350">
+
 * **Visualisierungen:**
   * **Karten:**  
     * [Übergeordnete Kartendarstellung: Unfallentwicklung und Veränderung zulässiger Geschwindigkeit](https://radverkehr.github.io/osm_history_analysis/viz/germany_raster2022_net_acc.html)
