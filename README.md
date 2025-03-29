@@ -170,6 +170,11 @@ Du kannst dazu beitragen, die Qualität des Prozesses – insbesondere im Hinbli
 * Straßenabschnitte in Brandenburg, vermutlich innerorts, mit mehr als 5 Unfällen in den letzten Jahren, aber ohne Angabe der zulässigen Geschwindigkeit:
   * [Query aufrufen](https://overpass-turbo.eu/s/21dR)
 
+* Straßenabschnitte in Brandenburg, vermutlich innerorts, mit mehr als 5 Unfällen in den letzten Jahren, aber ohne Angabe der zulässigen Geschwindigkeit:
+  * [Query aufrufen](https://overpass-turbo.eu/s/21h3)
+  * Für diese Auswahl liegen auch aktuelle (2023) [Mapillary Bilder](https://www.mapillary.com/app/?lat=52.43826051744355&lng=13.400104953124583&z=9.038546754841981) vor. Das Mappen könnte also vom Sofa gemacht werden.
+  
+
 Quellen:
 
 * [1] https://docs.ohsome.org/ohsome-api/v1/ 
