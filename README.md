@@ -167,8 +167,8 @@ Du kannst dazu beitragen, die Qualität des Prozesses – insbesondere im Hinbli
 * Straßenabschnitte in Deutschland mit mehr als 20 Unfällen in den letzten Jahren, aber ohne Angabe der zulässigen Geschwindigkeit:
   * [Query aufrufen](https://overpass-turbo.eu/s/21dx)
 
-* Straßenabschnitte in Brandenburg, vermutlich innerorts, mit mehr als 3 Unfällen in den letzten Jahren, aber ohne Angabe der zulässigen Geschwindigkeit:
-  * [Query aufrufen](https://overpass-turbo.eu/s/21oa)
+* Straßenabschnitte in Brandenburg, vermutlich innerorts, mit mehr als 2 Unfällen in den letzten Jahren, aber ohne Angabe der zulässigen Geschwindigkeit:
+  * [Query aufrufen](https://overpass-turbo.eu/s/21of)
   * Für diese Auswahl liegen auch aktuelle (2023) [Mapillary Panorama-Bilder](https://www.mapillary.com/app/?lat=52.498609209721025&lng=13.368822580280266&z=8.465244963535664&panos=true&dateFrom=2023-01-01&trafficSign=all) vor. Das Mappen könnte also vom Sofa aus gemacht werden.
   
 Quellen:
